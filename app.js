@@ -74,7 +74,7 @@ function resturant(foodArray){
             return decision;
         }
         let transportationDecision =(["Uber", "Plane", "Train", "Local Transportation", "Electric Bike"]);
-        
+        console.log(transportationDecision);
         
 
         
