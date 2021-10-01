@@ -115,8 +115,8 @@ function resturant(foodArray){
         decision = prompt("If you like the food choice, type yes");
         return decision;
     }
-    function destination (choiceArray){
-        let random;
+    function reselect (choiceArray){
+        let userInput = prompt("Which selection would you like to change?")
         random = someArray[Math.floor(Math.random() * choiceArray.length)];
         console.log(random);
         let decision;
